@@ -1,4 +1,12 @@
+body {
+    background: #DE0B19;
+}
+
 h1 a {
-    color: #DE0B19;
+    color: #FFFFFF;
     font-family: 'Lobster';
+}
+
+.page-header h1 {
+    text-align: center;
 }
