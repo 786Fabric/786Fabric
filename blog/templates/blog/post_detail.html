@@ -6,9 +6,9 @@
             <div class="date">
             </div>
         {% endif %}
-{% if user.is_authenticated %}
+<!--{% if user.is_authenticated %}-->
     <a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}">Edit</a>
-{% endif %}
+<!--{% endif %}-->
         <h1>{{ post.title }}</h1>
         <p>{{ post.text|linebreaks }}</p>
         <p>{{ post.published_date }}</p>
